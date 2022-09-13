@@ -14,7 +14,7 @@ const HomePage = () => {
   const [params, setParams] = useState({});
 
   const [list, setList] = useState([]);
-  const [searchValue, setSearchValue] = useState('baby');
+  const [searchValue, setSearchValue] = useState('friend');
   const [value] = useDebounce(searchValue, 1000);
 
   const [page, setPage] = useState(1);
