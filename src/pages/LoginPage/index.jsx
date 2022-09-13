@@ -83,9 +83,7 @@ const LoginPage = () => {
               value={password}
               placeholder={"Password"}
             />
-            <Form.Group controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
+           
             {loader ?
               <div className="spinner-border text-primary" role="status">
                 <span className="sr-only">Loading...</span>
